@@ -8,15 +8,15 @@ package pers.hanco.leetcode.arrays;
  * 输入的数组只包含 0 和1。
  * 输入数组的长度是正整数，且不超过 10,000。
  */
-public class findMaxConsecutiveOnes_485 {
+public class FindMaxConsecutiveOnes_485 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 1, 1, 1, 0, 1, 1, 1};
 
-        int result = new findMaxConsecutiveOnes_485().findMaxConsecutiveOnes(nums);
+        int result = new FindMaxConsecutiveOnes_485().findMaxConsecutiveOnes(nums);
         System.out.println(result);
 
-        result = new findMaxConsecutiveOnes_485().answer2(nums);
+        result = new FindMaxConsecutiveOnes_485().answer2(nums);
         System.out.println(result);
     }
 
